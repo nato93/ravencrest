@@ -1,0 +1,607 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Animations.meta
+    - Assets/Animations/barrel.controller
+    - Assets/Animations/barrel.controller.meta
+    - Assets/Animations/barrel_damaged.anim
+    - Assets/Animations/barrel_damaged.anim.meta
+    - Assets/Animations/barrel_idle.anim
+    - Assets/Animations/barrel_idle.anim.meta
+    - Assets/Animations/gfx.controller
+    - Assets/Animations/gfx.controller.meta
+    - Assets/Animations/player_attack.anim
+    - Assets/Animations/player_attack.anim.meta
+    - Assets/Animations/player_attack2.anim
+    - Assets/Animations/player_attack2.anim.meta
+    - Assets/Animations/player_attack3.anim
+    - Assets/Animations/player_attack3.anim.meta
+    - Assets/Animations/player_dash.anim
+    - Assets/Animations/player_dash.anim.meta
+    - Assets/Animations/player_fall.anim
+    - Assets/Animations/player_fall.anim.meta
+    - Assets/Animations/player_idle.anim
+    - Assets/Animations/player_idle.anim.meta
+    - Assets/Animations/player_jump.anim
+    - Assets/Animations/player_jump.anim.meta
+    - Assets/Animations/player_land.anim
+    - Assets/Animations/player_land.anim.meta
+    - Assets/Animations/player_walk.anim
+    - Assets/Animations/player_walk.anim.meta
+    - Assets/Animations/scene1_idle.anim
+    - Assets/Animations/scene1_idle.anim.meta
+    - Assets/Animations/water up bird no eat.controller
+    - Assets/Animations/water up bird no eat.controller.meta
+    - Assets/Fantasy Wooden GUI  Free.meta
+    - Assets/Fantasy Wooden GUI  Free/Scene.meta
+    - Assets/Fantasy Wooden GUI  Free/Scene/Demo.unity
+    - Assets/Fantasy Wooden GUI  Free/Scene/Demo.unity.meta
+    - Assets/Fantasy Wooden GUI  Free/Scene/DemoSettings.lighting
+    - Assets/Fantasy Wooden GUI  Free/Scene/DemoSettings.lighting.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png.meta
+    - Assets/Fonts.meta
+    - Assets/Fonts/Minecraft SDF.asset
+    - Assets/Fonts/Minecraft SDF.asset.meta
+    - Assets/Fonts/Minecraft.ttf
+    - Assets/Fonts/Minecraft.ttf.meta
+    - Assets/Fonts/Retron2000 SDF.asset
+    - Assets/Fonts/Retron2000 SDF.asset.meta
+    - Assets/Fonts/Retron2000.ttf
+    - Assets/Fonts/Retron2000.ttf.meta
+    - Assets/Fonts/alphbeta SDF.asset
+    - Assets/Fonts/alphbeta SDF.asset.meta
+    - Assets/Fonts/alphbeta.fon
+    - Assets/Fonts/alphbeta.fon.meta
+    - Assets/Fonts/alphbeta.ttf
+    - Assets/Fonts/alphbeta.ttf.meta
+    - Assets/HealthHeartSystem.meta
+    - Assets/HealthHeartSystem/Fonts.meta
+    - Assets/HealthHeartSystem/Fonts/TinyUnicode.ttf
+    - Assets/HealthHeartSystem/Fonts/TinyUnicode.ttf.meta
+    - Assets/HealthHeartSystem/Graphics.meta
+    - Assets/HealthHeartSystem/Graphics/mini-heart.png
+    - Assets/HealthHeartSystem/Graphics/mini-heart.png.meta
+    - Assets/HealthHeartSystem/Prefabs.meta
+    - Assets/HealthHeartSystem/Prefabs/HeartContainer.prefab
+    - Assets/HealthHeartSystem/Prefabs/HeartContainer.prefab.meta
+    - Assets/HealthHeartSystem/Scenes.meta
+    - Assets/HealthHeartSystem/Scenes/ExampleScene.unity
+    - Assets/HealthHeartSystem/Scenes/ExampleScene.unity.meta
+    - Assets/HealthHeartSystem/Scenes/ExampleSceneSettings.lighting
+    - Assets/HealthHeartSystem/Scenes/ExampleSceneSettings.lighting.meta
+    - Assets/HealthHeartSystem/Scripts.meta
+    - Assets/HealthHeartSystem/Scripts/HealthBarController.cs
+    - Assets/HealthHeartSystem/Scripts/HealthBarController.cs.meta
+    - Assets/HealthHeartSystem/Scripts/HealthBarHUDTester.cs
+    - Assets/HealthHeartSystem/Scripts/HealthBarHUDTester.cs.meta
+    - Assets/HealthHeartSystem/Scripts/PlayerStats.cs
+    - Assets/HealthHeartSystem/Scripts/PlayerStats.cs.meta
+    - Assets/HealthHeartSystem/readme.txt
+    - Assets/HealthHeartSystem/readme.txt.meta
+    - Assets/Hero Knight - Pixel Art.meta
+    - Assets/Hero Knight - Pixel Art/Animations.meta
+    - Assets/Hero Knight - Pixel Art/Animations/BlockFlash.anim
+    - Assets/Hero Knight - Pixel Art/Animations/BlockFlash.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/BlockFlash_AnimController.controller
+    - Assets/Hero Knight - Pixel Art/Animations/BlockFlash_AnimController.controller.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_AnimController.controller
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_AnimController.controller.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Block.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Block.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockIdle.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockIdle.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockNoEffect.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockNoEffect.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Death.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Death.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_DeathNoBlood.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_DeathNoBlood.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Fall.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Fall.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Hurt.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Hurt.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Idle.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Idle.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_IdleBlock.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_IdleBlock.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_LedgeGrab.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_LedgeGrab.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Roll.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Roll.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Run.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Run.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_WallSlide.anim
+    - Assets/Hero Knight - Pixel Art/Animations/HeroKnight_WallSlide.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/SlideDust.anim
+    - Assets/Hero Knight - Pixel Art/Animations/SlideDust.anim.meta
+    - Assets/Hero Knight - Pixel Art/Animations/SlideDust.controller
+    - Assets/Hero Knight - Pixel Art/Animations/SlideDust.controller.meta
+    - Assets/Hero Knight - Pixel Art/ColorSwap.meta
+    - Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap.mat
+    - Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap.mat.meta
+    - Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs
+    - Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs.meta
+    - Assets/Hero Knight - Pixel Art/ColorSwap/Sprites-ColorSwap.shader
+    - Assets/Hero Knight - Pixel Art/ColorSwap/Sprites-ColorSwap.shader.meta
+    - Assets/Hero Knight - Pixel Art/ColorSwap/swap_texture.png
+    - Assets/Hero Knight - Pixel Art/ColorSwap/swap_texture.png.meta
+    - Assets/Hero Knight - Pixel Art/Demo.meta
+    - Assets/Hero Knight - Pixel Art/Demo/BlockFlash.prefab
+    - Assets/Hero Knight - Pixel Art/Demo/BlockFlash.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Demo/Demo.unity
+    - Assets/Hero Knight - Pixel Art/Demo/Demo.unity.meta
+    - Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs
+    - Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs.meta
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs.meta
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight.prefab
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Yellow.prefab
+    - Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Yellow.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs
+    - Assets/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs.meta
+    - Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab
+    - Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Environment.meta
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab.meta
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_0.asset
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_0.asset.meta
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset.meta
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset.meta
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset
+    - Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset.meta
+    - Assets/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D
+    - Assets/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D.meta
+    - Assets/Hero Knight - Pixel Art/Sprites.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/Background.png
+    - Assets/Hero Knight - Pixel Art/Sprites/Background.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/BlockFlash.png
+    - Assets/Hero Knight - Pixel Art/Sprites/BlockFlash.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/EnvironmentTiles.png
+    - Assets/Hero Knight - Pixel Art/Sprites/EnvironmentTiles.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight.png
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_BlockNoEffect.png
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_BlockNoEffect.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_DeathNoBlood.png
+    - Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_DeathNoBlood.png.meta
+    - Assets/Hero Knight - Pixel Art/Sprites/SlideDust.png
+    - Assets/Hero Knight - Pixel Art/Sprites/SlideDust.png.meta
+    - Assets/Leohpaz.meta
+    - Assets/Leohpaz/RPG_Essentials_Free.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/03_Claw_03.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/03_Claw_03.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/08_Bite_04.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/08_Bite_04.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/15_Impact_flesh_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/15_Impact_flesh_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/22_Slash_04.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/22_Slash_04.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/35_Miss_Evade_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/35_Miss_Evade_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/39_Block_03.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/39_Block_03.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/51_Flee_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/51_Flee_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/55_Encounter_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/55_Encounter_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/69_Enemy_death_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/69_Enemy_death_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/77_flesh_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/77_flesh_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/001_Hover_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/001_Hover_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/013_Confirm_03.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/013_Confirm_03.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/029_Decline_09.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/029_Decline_09.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/033_Denied_03.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/033_Denied_03.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/051_use_item_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/051_use_item_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/070_Equip_10.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/070_Equip_10.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/071_Unequip_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/071_Unequip_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/079_Buy_sell_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/079_Buy_sell_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/092_Pause_04.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/092_Pause_04.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/098_Unpause_04.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/098_Unpause_04.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/03_Step_grass_03.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/03_Step_grass_03.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/08_Step_rock_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/08_Step_rock_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/12_Step_wood_03.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/12_Step_wood_03.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/14_Step_water_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/14_Step_water_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/26_Swim_Submerged_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/26_Swim_Submerged_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/30_Jump_03.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/30_Jump_03.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/42_Cling_climb_03.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/42_Cling_climb_03.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/45_Landing_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/45_Landing_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/52_Dive_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/52_Dive_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/56_Attack_03.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/56_Attack_03.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/61_Hit_03.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/61_Hit_03.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/88_Teleport_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/88_Teleport_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/04_Fire_explosion_04_medium.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/04_Fire_explosion_04_medium.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/13_Ice_explosion_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/13_Ice_explosion_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/18_Thunder_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/18_Thunder_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/22_Water_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/22_Water_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/25_Wind_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/25_Wind_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/30_Earth_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/30_Earth_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/45_Charge_05.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/45_Charge_05.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/46_Poison_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/46_Poison_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/02_Heal_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/02_Heal_02.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/16_Atk_buff_04.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/16_Atk_buff_04.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/17_Def_buff_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/17_Def_buff_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/21_Debuff_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/21_Debuff_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/30_Revive_03.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/30_Revive_03.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/39_Absorb_04.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/39_Absorb_04.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/44_Sleep_01.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/44_Sleep_01.wav.meta
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/48_Speed_up_02.wav
+    - Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/48_Speed_up_02.wav.meta
+    - Assets/New Material.mat
+    - Assets/New Material.mat.meta
+    - Assets/Pixel Skies DEMO.meta
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px.meta
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel
+      Sky.meta
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel
+      Sky/demo01_PixelSky_layer01.png
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel
+      Sky/demo01_PixelSky_layer01.png.meta
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel
+      Sky/demo01_PixelSky_layer02.png
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel
+      Sky/demo01_PixelSky_layer02.png.meta
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel
+      Sky/demo01_PixelSky_layer03.png
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel
+      Sky/demo01_PixelSky_layer03.png.meta
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel
+      Sky.meta
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel
+      Sky/demo02_PixelSky_layer01.png
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel
+      Sky/demo02_PixelSky_layer01.png.meta
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel
+      Sky/demo02_PixelSky_layer02.png
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel
+      Sky/demo02_PixelSky_layer02.png.meta
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel
+      Sky/demo02_PixelSky_layer03.png
+    - Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel
+      Sky/demo02_PixelSky_layer03.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD).meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo01_PixelSky_1920x1080.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo01_PixelSky_1920x1080.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo02_PixelSky_1920x1080.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo02_PixelSky_1920x1080.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo03_PixelSky_1920x1080.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo03_PixelSky_1920x1080.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo04_PixelSky_1920x1080.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo04_PixelSky_1920x1080.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo05_PixelSky_1920x1080.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo05_PixelSky_1920x1080.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo06_PixelSky_1920x1080.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo06_PixelSky_1920x1080.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo01_PixelSky.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo01_PixelSky.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo02_PixelSky.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo02_PixelSky.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo03_PixelSky.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo03_PixelSky.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo04_PixelSky.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo04_PixelSky.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo05_PixelSky.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo05_PixelSky.png.meta
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo06_PixelSky.png
+    - Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo06_PixelSky.png.meta
+    - Assets/Pixel Skies DEMO/Scenes.meta
+    - Assets/Pixel Skies DEMO/Scenes/demoscene.unity
+    - Assets/Pixel Skies DEMO/Scenes/demoscene.unity.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/DialogueTrigger.prefab
+    - Assets/Prefabs/DialogueTrigger.prefab.meta
+    - Assets/Prefabs/LoadSceneTrigger.prefab
+    - Assets/Prefabs/LoadSceneTrigger.prefab.meta
+    - Assets/Prefabs/Player 1.prefab
+    - Assets/Prefabs/Player 1.prefab.meta
+    - Assets/Prefabs/SceneLayers.prefab
+    - Assets/Prefabs/SceneLayers.prefab.meta
+    - Assets/Prefabs/StartUp.prefab
+    - Assets/Prefabs/StartUp.prefab.meta
+    - Assets/Prefabs/barrel.prefab
+    - Assets/Prefabs/barrel.prefab.meta
+    - Assets/Prefabs/little star Variant.prefab
+    - Assets/Prefabs/little star Variant.prefab.meta
+    - Assets/Prefabs/player.prefab
+    - Assets/Prefabs/player.prefab.meta
+    - Assets/Prefabs/star.prefab
+    - Assets/Prefabs/star.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/scene 1.meta
+    - Assets/Scenes/scene 1.unity
+    - Assets/Scenes/scene 1.unity.meta
+    - Assets/Scenes/scene 1/GameObject (1) Profile.asset
+    - Assets/Scenes/scene 1/GameObject (1) Profile.asset.meta
+    - Assets/Scenes/scene 1_Profiles.meta
+    - Assets/Scenes/scene 1_Profiles/GameObject Profile.asset
+    - Assets/Scenes/scene 1_Profiles/GameObject Profile.asset.meta
+    - Assets/Scenes/scene 1_Profiles/Main Camera Profile.asset
+    - Assets/Scenes/scene 1_Profiles/Main Camera Profile.asset.meta
+    - Assets/Scenes/scene 2.unity
+    - Assets/Scenes/scene 2.unity.meta
+    - Assets/Scenes/scene 3.unity
+    - Assets/Scenes/scene 3.unity.meta
+    - Assets/Scenes/scene 4.unity
+    - Assets/Scenes/scene 4.unity.meta
+    - Assets/Scenes/scene 5.unity
+    - Assets/Scenes/scene 5.unity.meta
+    - Assets/Scenes/scene 6.unity
+    - Assets/Scenes/scene 6.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/Breakable.cs
+    - Assets/Scripts/Breakable.cs.meta
+    - Assets/Scripts/DialogueTrigger.cs
+    - Assets/Scripts/DialogueTrigger.cs.meta
+    - Assets/Scripts/GameManager.cs
+    - Assets/Scripts/GameManager.cs.meta
+    - Assets/Scripts/HUD.cs
+    - Assets/Scripts/HUD.cs.meta
+    - Assets/Scripts/MusicClass.cs
+    - Assets/Scripts/MusicClass.cs.meta
+    - Assets/Scripts/ParallaxController.cs
+    - Assets/Scripts/ParallaxController.cs.meta
+    - Assets/Scripts/ParallaxLayer.cs
+    - Assets/Scripts/ParallaxLayer.cs.meta
+    - Assets/Scripts/Player.cs
+    - Assets/Scripts/Player.cs.meta
+    - Assets/Scripts/PlayerSounds.cs
+    - Assets/Scripts/PlayerSounds.cs.meta
+    - Assets/Scripts/RecoveryCounter.cs
+    - Assets/Scripts/RecoveryCounter.cs.meta
+    - Assets/Scripts/SceneLoadTrigger.cs
+    - Assets/Scripts/SceneLoadTrigger.cs.meta
+    - Assets/Sprites.meta
+    - Assets/Sprites/Fullmain-new.png
+    - Assets/Sprites/Fullmain-new.png.meta
+    - Assets/Sprites/ravencrest scene1.psb
+    - Assets/Sprites/ravencrest scene1.psb.meta
+    - Assets/Sprites/ravencrest spritesheet 2.psb
+    - Assets/Sprites/ravencrest spritesheet 2.psb.meta
+    - Assets/Sprites/ravencrest spritesheet.psb
+    - Assets/Sprites/ravencrest spritesheet.psb.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/UniversalRenderPipelineAsset.asset
+    - Assets/UniversalRenderPipelineAsset.asset.meta
+    - Assets/UniversalRenderPipelineAsset_Renderer.asset
+    - Assets/UniversalRenderPipelineAsset_Renderer.asset.meta
+    - Assets/sound.meta
+    - Assets/sound/GameSound.mixer
+    - Assets/sound/GameSound.mixer.meta
+    - Assets/sound/Pillars of Eternity Soundtrack 09 - Elmshore (Justin Bell) (1).mp3
+    - Assets/sound/Pillars of Eternity Soundtrack 09 - Elmshore (Justin Bell) (1).mp3.meta
+    - Assets/sound/birds-chirping-at-night-31007.mp3
+    - Assets/sound/birds-chirping-at-night-31007.mp3.meta
+    - Assets/sound/crate-break-1-93926.mp3
+    - Assets/sound/crate-break-1-93926.mp3.meta
+    - Assets/sound/gentle-ocean-waves-birdsong-and-gull-7109.mp3
+    - Assets/sound/gentle-ocean-waves-birdsong-and-gull-7109.mp3.meta
+    - Assets/sound/howling-wind-109590.mp3
+    - Assets/sound/howling-wind-109590.mp3.meta
+    - Assets/sprite default.mat
+    - Assets/sprite default.mat.meta
+    - Assets/white square.png
+    - Assets/white square.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
